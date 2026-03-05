@@ -11,9 +11,9 @@ def menu():
         print("\n===== MENÚ EMPANADAS DOÑA PEPA =====")
         print("1. Listar empanadas")
         print("2. Agregar empanada")
-        print("3. EDITAR empanada")
+        print("3. editarrr empanada")
         print("4. Eliminar empanada")
-        print("5. Salir")
+        print("5. SALIR")
 
         opcion = input("Seleccione una opción: ")
 
