@@ -32,3 +32,19 @@ def editar_empanada(empanadas):
             return
 
     print("Empanada no encontrada")
+
+def eliminar_empanada(empanadas):
+    nombre = input("Ingrese el nombre de la empanada que desea eliminar: ")
+
+    for empanada in empanadas:
+        if empanada["nombre"] == nombre:
+            empanadas.remove(empanada)
+            print("Empanada eliminada correctamente")
+            return
+
+    print("Empanada no encontrada")
+
+
+def salir_programa():
+    print("Saliendo del sistema...")
+    exit()
