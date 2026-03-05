@@ -13,7 +13,7 @@ def menu():
         print("2. Agregar empanada")
         print("3. Editar empanada")
         print("4. Eliminar empanada")
-        print("5. Salir")
+        print("5. SALIR")
 
         opcion = input("Seleccione una opción: ")
 
