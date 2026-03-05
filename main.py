@@ -1,6 +1,6 @@
-from datos import cargar_empanadas,guardar_empandas
+from datos import cargar_empanadas,guardar_empanadas
 from sebastian import editar_empanada, eliminar_empanada
-
+from juan import listar_empanadas,agregar_empanada
 
 def menu():
 
